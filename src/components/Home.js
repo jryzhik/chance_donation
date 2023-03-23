@@ -12,8 +12,8 @@ const Home = ({ dark }) => {
             </div>
             <div className="text">
               <p>
-                {`I'm`} creative designer based in New York, and {`I'm`} very
-                passionate and dedicated to my work.
+                Young people, with a heart of missions, proclaiming the Gospel to
+                Jerusalem and in all Judea and Samaria, and to the end of the earth.
               </p>
             </div>
             <div className="buttons">

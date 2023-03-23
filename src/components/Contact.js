@@ -20,8 +20,7 @@ const Contact = () => {
             <div className="text">
               <h3>{`Partner`} with us!</h3>
               <p>
-                You can express yourself however you want and whenever you want,
-                for free. You can customize a template or make your own.
+                If you want to learn more about our vision or become a strategic partner for Christ, please feel free to connect!
               </p>
             </div>
             <div className="orido_tm_boxed_button">
@@ -53,7 +52,7 @@ const Contact = () => {
             </div>
             <div className="right">
               <div className="orido_tm_follow">
-                <span>Follow me:</span>
+                <span>Follow us:</span>
                 <ul>
                   <li>
                     <a href="#">

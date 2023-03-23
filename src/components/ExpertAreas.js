@@ -3,10 +3,10 @@ import { filter_hashtag } from "../utilits";
 import Counter from "./Counter";
 
 const counts = [
-  { name: "Trainings", value: 219 },
-  { name: "Written Book", value: 48 },
-  { name: "Listeners", value: 527 },
-  { name: "Own Projects", value: 12 },
+  { name: "Orphan Camp Left", value: 15300 },
+  { name: "Youth Camp Left", value: 11250 },
+  { name: "Raised", value: 5800 },
+  // { name: "Own Projects", value: 12 },
 ];
 
 const skills = [
@@ -75,9 +75,9 @@ const ExpertAreas = () => {
   return (
     <Fragment>
       <div className="orido_tm_section">
-        <div className="orido_tm_informations">
+        <div className="orido_tm_informations" id="donate">
           <div className="container">
-            <div className="informations_inner" id="donate">
+            <div className="informations_inner">
               <div className="left">
                 <div className="orido_tm_main_title">
                   <h3>
@@ -230,27 +230,6 @@ const ExpertAreas = () => {
         </div>
       </div>
       {/* /INFORMATIONS */}
-      {/* COUNTER */}
-      <div className="orido_tm_section">
-        <div className="orido_tm_counter">
-          <div className="container">
-            <div className="counter_list">
-              <ul>
-                {counts.map((count, i) => (
-                  <li key={i}>
-                    <div className="list_inner">
-                      <h3>
-                        <Counter end={count.value} />
-                      </h3>
-                      <span className="title">{count.name}</span>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
     </Fragment>
   );
 };

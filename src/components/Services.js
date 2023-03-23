@@ -1,6 +1,15 @@
 import { Fragment, useEffect, useState } from "react";
 import { Servicehashtag } from "../utilits";
 import ServicePopup from "./popup/ServicePopup";
+import Counter from "./Counter";
+
+const counts = [
+  { name: "Orphan Camp Left", value: 15300 },
+  { name: "Youth Camp Left", value: 11250 },
+  { name: "Raised", value: 5800 },
+  // { name: "Own Projects", value: 12 },
+];
+
 
 const serviceData = [
   {
@@ -98,6 +107,27 @@ const Services = () => {
                 ))}
               </ul>
               <span className="ccc" />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* COUNTER */}
+      <div className="orido_tm_section">
+        <div className="orido_tm_counter">
+          <div className="container">
+            <div className="counter_list">
+              <ul>
+                {counts.map((count, i) => (
+                  <li key={i}>
+                    <div className="list_inner">
+                      <h3>
+                        $<Counter end={count.value} />
+                      </h3>
+                      <span className="title">{count.name}</span>
+                    </div>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>

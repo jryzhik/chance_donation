@@ -26,11 +26,10 @@ const Index = () => {
       <Header />
       <Home />
       <About />
-      <ExpertAreas />
       <Services />
+      <ExpertAreas />
       <Projects />
       <Feedback />
-      <Blog />
       <Partners />
       <Contact />
       <CopyRight />
