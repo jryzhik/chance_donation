@@ -97,12 +97,12 @@ const ExpertAreas = () => {
                     We are praying that God makes another miracle and through you, we will be able to serve in 2023.
                   </p>
                 </div>
-                <div className="orido_tm_boxed_button">
+                {/* <div className="orido_tm_boxed_button">
                   <a href="#">
                     My Resume{" "}
                     <img className="svg" src="img/svg/paper.svg" alt="" />
                   </a>
-                </div>
+                </div> */}
               </div>
               <div className="right">
                 <div className="filter">

@@ -39,9 +39,9 @@ const Projects = () => {
                       />
                     </div>
                     <div className="details">
-                      <span className="category">Youtube</span>
+                      <span className="category">Camp 2021</span>
                       <h3 className="title">
-                        <span>Car Export</span>
+                        <span>Orphan Fathership</span>
                       </h3>
                     </div>
                     <a
@@ -60,9 +60,9 @@ const Projects = () => {
                       />
                     </div>
                     <div className="details">
-                      <span className="category">Vimeo</span>
+                      <span className="category">Youth Camp 2022</span>
                       <h3 className="title">
-                        <span>Food delivery</span>
+                        <span>Pre-Service</span>
                       </h3>
                     </div>
                     <a
@@ -81,9 +81,9 @@ const Projects = () => {
                       />
                     </div>
                     <div className="details">
-                      <span className="category">Soundcloud</span>
+                      <span className="category">Orphan Camp 2022</span>
                       <h3 className="title">
-                        <span>Ecommerce Website</span>
+                        <span>Sharing the Gospel</span>
                       </h3>
                     </div>
                     <a
@@ -102,9 +102,9 @@ const Projects = () => {
                       />
                     </div>
                     <div className="details">
-                      <span className="category">Details</span>
+                      <span className="category">Youth Camp 2022</span>
                       <h3 className="title">
-                        <span>Mockup Phone</span>
+                        <span>Girl Talks</span>
                       </h3>
                     </div>
                     <a
@@ -123,9 +123,9 @@ const Projects = () => {
                       />
                     </div>
                     <div className="details">
-                      <span className="category">Popup</span>
+                      <span className="category">Orphan Camp 2021</span>
                       <h3 className="title">
-                        <span>Felix Photo</span>
+                        <span>Firepit Fellowship</span>
                       </h3>
                     </div>
                     <a

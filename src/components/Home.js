@@ -72,7 +72,7 @@ const Home = ({ dark }) => {
           <div className="video_button">
             <a
               className="popup-youtube"
-              href="https://www.youtube.com/watch?v=7e90gBu4pas"
+              href="https://www.youtube.com/watch?v=JUh92SFaRj4"
             >
               <img className="anim_circle" src="img/hero/welcome.png" alt="" />
               <img className="svg" src="img/svg/play.svg" alt="" />

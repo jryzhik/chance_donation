@@ -7,7 +7,7 @@ const Contact = () => {
             <div className="video_button">
               <a
                 className="popup-youtube"
-                href="https://www.youtube.com/watch?v=7e90gBu4pas"
+                href="https://www.youtube.com/watch?v=JUh92SFaRj4"
               >
                 <img
                   className="anim_circle"
@@ -24,7 +24,7 @@ const Contact = () => {
               </p>
             </div>
             <div className="orido_tm_boxed_button">
-              <a href="#">
+              <a href="mailto:info@chanceyouth.org">
                 Say Hello <img className="svg" src="img/svg/send.svg" alt="" />
               </a>
             </div>

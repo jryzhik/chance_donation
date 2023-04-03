@@ -17,17 +17,24 @@ const Feedback = ({ dark }) => {
             <div className="info">
               <div className="text">
                 <p>
-                  “Awesome website! Easy to use and edit, it has a lot of
-                  options to design whatever you need, it is professional and
-                  fun. I was very successful creating my profile using designer
-                  which gave me unbelievable reach &amp; appreciation.”
+                  “From the bottom of my heart I want to say thank you for all 
+                  your efforts that you've put to create such a powerful spiritual 
+                  place. I loved absolutely every activity
+                     we have done and every second I spent there! And I also made a 
+                     lot of new friends. The camp has filled me both mentally and spiritually, 
+                     because you showed the greatest kindness and interest literally to every 
+                     child in the camp. Furthermore, I'd like to express special gratitude to 
+                     my teachers during our Bible study, Nadia, Sergey and Lena. I should say
+                     I was really blessed to have you in my life for this week, because you've 
+                     taught me so much that now I look at life from a different angle. 
+                     Thanks a lot. I am truly grateful to all the chance team. ”
                 </p>
               </div>
               <div className="details">
                 <h3 className="name">
-                  <span>Albert Walkers</span>
+                  <span>Liza</span>
                 </h3>
-                <span className="job">Vivaco Group</span>
+                <span className="job">Orphan Camp 2022</span>
               </div>
             </div>
           </div>

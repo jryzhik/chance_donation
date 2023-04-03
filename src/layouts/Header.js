@@ -32,8 +32,7 @@ const Header = ({ dark }) => {
         </div>
         <div className="button">
           <a
-            href="https://themeforest.net/user/codeefly/portfolio"
-            target="_blank"
+            href="#donate"
           >
             Donate
           </a>
