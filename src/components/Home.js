@@ -24,7 +24,7 @@ const Home = ({ dark }) => {
                 </a>
               </div>
               <div className="orido_tm_simple_button">
-                <a className="line_effect anchor" href="#portfolio">
+                <a className="line_effect anchor" href="#donate">
                   Donate{" "}
                   <img className="svg" src="img/svg/top-arrow.svg" alt="" />
                 </a>

@@ -55,12 +55,12 @@ const Contact = () => {
                 <span>Follow us:</span>
                 <ul>
                   <li>
-                    <a href="#">
+                  <a href="https://t.me/Chancebyofficial">
                       <img className="svg" src="img/svg/social/be.svg" alt="" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                  <a href="tel:17707187300">
                       <img
                         className="svg"
                         src="img/svg/social/dribbble.svg"
@@ -69,7 +69,7 @@ const Contact = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                  <a href="https://www.instagram.com/chance.youth/">
                       <img
                         className="svg"
                         src="img/svg/social/instagarm.svg"
