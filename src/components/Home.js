@@ -37,12 +37,12 @@ const Home = ({ dark }) => {
           <ul>
             <li>
               <a href="https://t.me/Chancebyofficial">
-                <img className="svg" src="img/svg/social/be.svg" alt="" />
+                <img className="svg" src="img/svg/social/telegram.svg" alt="" />
               </a>
             </li>
             <li>
               <a href="tel:17707187300">
-                <img className="svg" src="img/svg/social/dribbble.svg" alt="" />
+                <img className="svg" src="img/svg/social/phone.svg" alt="" />
               </a>
             </li>
             <li>
