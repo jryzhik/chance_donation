@@ -2,7 +2,7 @@ import { Fragment, useEffect, useState } from "react";
 import { filter_hashtag } from "../utilits";
 
 
-import { checkout } from "../../pages/checkout";
+import { checkout } from "../../checkout";
 
 const counts = [
   { name: "Orphan Camp Left", value: 15300 },
