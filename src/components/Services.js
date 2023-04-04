@@ -25,9 +25,11 @@ const serviceData = [
     name: "National Youth Camp",
     img: "img/service/2.jpg",
     description: [
-      "Orido is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Orido, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "In every new generation there are future doers of God’s work that need to be trained up. Who will follow our generation and carry the banner of faith, preaching the Gospel to the ends of the earth? Those, who in their youth, were trained up and instructed in the teachings of the Lord, which the Scripture says will stay faithful even in their old age.",
+      "In organizing our youth camps, we hold several goals: " ,
+      "1. Strengthening the Christian youth in the foundation and sound doctrine of the Lord", 
+      "2. Preaching the Gospel to the unbelieving youth. Usually, these are the friends of the Christian youth who they invite the the camps, and those who we evangelize to on streets, restaurants, and other common locations." ,
+      "3. We introduce orphans who are aging out of their orphanages (which we’ve worked with for many years) to Christian youth, hoping to connect them to their local churches and youth groups. This is a new ministry for Chance, but already over a few years it has reaped its own effectiveness and need.",
     ],
   },
   {
