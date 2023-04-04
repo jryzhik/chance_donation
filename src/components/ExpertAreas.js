@@ -1,7 +1,6 @@
 import { Fragment, useEffect, useState } from "react";
 import { filter_hashtag } from "../utilits";
-
-
+import ProgressBar from "./ProgressBar";
 import { checkout } from "../../checkout";
 
 const counts = [
@@ -99,6 +98,7 @@ const ExpertAreas = () => {
                     We are praying that God makes another miracle and through you, we will be able to serve in 2023.
                   </p>
                 </div>
+                <ProgressBar/>
                 {/* <div className="orido_tm_boxed_button">
                   <a href="#">
                     My Resume{" "}

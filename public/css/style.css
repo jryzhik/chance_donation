@@ -3249,3 +3249,28 @@ h6 {
     height: 20px;
   }
 }
+.thanks {
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .thanks {
+    padding: 5%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    align-self: center;
+  }
+  .cardthanks {
+    margin-top: 5%; 
+ }
+}
+
+
+
+
