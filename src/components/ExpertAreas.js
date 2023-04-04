@@ -1,6 +1,8 @@
 import { Fragment, useEffect, useState } from "react";
 import { filter_hashtag } from "../utilits";
-import Counter from "./Counter";
+
+
+import { checkout } from "../../pages/checkout";
 
 const counts = [
   { name: "Orphan Camp Left", value: 15300 },
@@ -10,12 +12,12 @@ const counts = [
 ];
 
 const skills = [
-  { name: "Figma", value: 90, icon: "img/svg/figma.svg" },
-  { name: "After Effect", value: "80", icon: "img/svg/Ae.svg" },
-  { name: "Photoshop", value: "85", icon: "img/svg/photoshop.svg" },
-  { name: "XD", value: "95", icon: "img/svg/Xd.svg" },
-  { name: "Illustrator", value: "90", icon: "img/svg/illustrator.svg" },
-  { name: "Indesign", value: "75", icon: "img/svg/Id.svg" },
+  { name: "Support 1 Orphan", value: "120", icon: "img/svg/figma.svg", quantity:1},
+  { name: "Support 2 Orphans", value: "240", icon: "img/svg/Ae.svg", quantity:2},
+  { name: "Support 3 Orphans", value: "360", icon: "img/svg/photoshop.svg", quantity:3},
+  { name: "Support 4 Orphans", value: "480", icon: "img/svg/Xd.svg", quantity:4},
+  { name: "Support 5 Orphans", value: "600", icon: "img/svg/illustrator.svg", quantity:5},
+  { name: "Donate Custom", value: "", icon: "img/svg/Id.svg", quantity:0, override: 'https://donate.stripe.com/14kaGd0yS362aA0aEE'},
 ];
 
 const experiences = [
@@ -141,7 +143,7 @@ const ExpertAreas = () => {
                         onClick={() => setActiveTab(3)}
                         data-tab="tab_3"
                       >
-                        <span>Scholorship</span>{" "}
+                        <span>Scholarship</span>{" "}
                         <img
                           className="svg"
                           src="img/svg/top-arrow.svg"
@@ -158,7 +160,18 @@ const ExpertAreas = () => {
                       <ul>
                         {skills.map((skill, i) => (
                           <li key={i}>
-                            <div className="list_inner">
+                            <div className="list_inner" onClick={(() => {
+                                skill.quantity === 0 ?
+                                location.href='https://donate.stripe.com/14kaGd0yS362aA0aEE' :
+                                checkout({
+                                  lineItems: [
+                                    {
+                                      price: String(process.env.NEXT_PUBLIC_ORPHAN_SUPPORT_PRICE),
+                                      quantity: skill.quantity,
+                                    }
+                                  ]
+                                })
+                              })}>
                               <span className="icon">
                                 <span className="in">
                                   <img
@@ -169,7 +182,7 @@ const ExpertAreas = () => {
                                 </span>
                               </span>
                               <p className="name">
-                                {skill.name} <span>({skill.value}%)</span>
+                                {skill.name} <span>({skill.value}$)</span>
                               </p>
                             </div>
                           </li>
