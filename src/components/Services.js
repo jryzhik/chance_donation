@@ -112,16 +112,18 @@ const Services = () => {
         </div>
       </div>
       {/* COUNTER */}
+      <div className="mobileRow">
       <div className="orido_tm_section">
         <div className="orido_tm_counter">
           <div className="container">
             <div className="counter_list">
               <ul>
+              
                 {counts.map((count, i) => (
                   <li key={i}>
                     <div className="list_inner">
                       <h3>
-                        $<Counter end={count.value} />
+                        $<Counter end={count.value} /> 
                       </h3>
                       <span className="title">{count.name}</span>
                     </div>
@@ -131,6 +133,7 @@ const Services = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </Fragment>
   );

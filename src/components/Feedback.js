@@ -17,11 +17,8 @@ const Feedback = ({ dark }) => {
             <div className="info">
               <div className="text">
                 <p>
-                  “From the bottom of my heart I want to say thank you for all 
-                  your efforts that you've put to create such a powerful spiritual 
-                  place. I loved absolutely every activity
-                     we have done and every second I spent there! And I also made a 
-                     lot of new friends. The camp has filled me both mentally and spiritually, 
+                  “From the bottom of my heart I want to say thank you for such a powerful spiritual 
+                  place. The camp has filled me both mentally and spiritually, 
                      because you showed the greatest kindness and interest literally to every 
                      child in the camp. Furthermore, I'd like to express special gratitude to 
                      my teachers during our Bible study, Nadia, Sergey and Lena. I should say
