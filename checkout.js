@@ -15,7 +15,7 @@ export async function checkout({lineItems}) {
     await stripe.redirectToCheckout({
         mode: 'payment',
         lineItems,
-        successUrl: `${window.location.origin}?session_id={CHECKOUT_SESSION_ID}`,
+        successUrl: "http://donate.chanceyouth.org/thanks?fundId=%27orphan%27",
         cancelUrl: window.location.origin
 
     })
