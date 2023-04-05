@@ -2,12 +2,22 @@ import Layout from "../../src/layouts/Layout";
 import Image from 'next/image'
 import { Card, Grid, Text, Link } from "@nextui-org/react";
 
-
-
-
+import { useRouter } from 'next/router'
+import { useState } from "react";
 
 const Index = () => {
-  return (
+
+const router = useRouter()
+const [fundId, setFundId] = useState('1')
+const fatherState = () => {
+    setFundId(router.query)
+}
+
+
+  fatherState()
+  console.log(fundId)
+ return(
+    
     <Layout>
         <div className="thanks">
     <div className="cardthanks">
@@ -32,7 +42,9 @@ const Index = () => {
         </Card.Header>
         <Card.Body css={{ py: "$2" }}>
             <Text>
-            From the bottom of our hearts, we thank you for your generocity. Your donation has been designated for <b>Orphan Camp FUND</b>
+                {console.log(fundId.charAt(0))}
+                {/* {console.log(Number(fundId.charAt(1)))} */}
+            From the bottom of our hearts, we thank you for your generocity. Your donation has been designated for <b>{switcher[0].name}</b>
             </Text>
         </Card.Body>
         <Card.Footer>
@@ -48,7 +60,7 @@ const Index = () => {
         </Card>
     </div>
             <Image
-            src="/img/thanks/orphan.svg"
+            src="/img/thanks/scholarship.svg"
             alt="Picture of the author"
             width={500}
             height={500}
