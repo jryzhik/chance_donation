@@ -240,7 +240,7 @@ const ExpertAreas = () => {
                       
                         <div className="scholaButton">
                             <div className="orido_tm_boxed_buttonschol">
-                              <a className="anchor" href="#contact">
+                              <a className="anchor" href="https://buy.stripe.com/bIY15DbdwbCygYo7su">
                                 Give to Scholarship FUND{" "}
                                 <img className="svg" src="img/svg/donate.svg" alt="" />
                               </a>
