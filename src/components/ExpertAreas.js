@@ -20,27 +20,36 @@ const skills = [
 ];
 
 const experiences = [
-  {
-    company: "Bauen Software Inc.",
-    designation: "Product Designer",
-    time: "2021 - Present",
-  },
-  {
-    company: "Bauen Software Inc.",
-    designation: "UX Designer",
-    time: "2020 - 2021",
-  },
-  {
-    company: "Bauen Software Inc.",
-    designation: "UI Designer",
-    time: "2018 - 2020",
-  },
-  {
-    company: "Bauen Software Inc.",
-    designation: "Web Designer",
-    time: "2016 - 2018",
-  },
+  { name: "Bring 1 Young Person", value: "95", icon: "img/svg/1.svg", quantity:1},
+  { name: "Bring 2 Young People", value: "190", icon: "img/svg/2.svg", quantity:2},
+  { name: "Bring 3 Young People", value: "285", icon: "img/svg/3.svg", quantity:3},
+  { name: "Bring 4 Young People", value: "380", icon: "img/svg/4.svg", quantity:4},
+  { name: "Bring 5 Young People", value: "475", icon: "img/svg/5.svg", quantity:5},
+  { name: "Donate Custom", value: "", icon: "img/svg/enter.svg", quantity:0, override: 'https://buy.stripe.com/fZe5lT4P8dKGgYo6op'},
 ];
+
+// const experiences = [
+//   {
+//     company: "Bauen Software Inc.",
+//     designation: "Product Designer",
+//     time: "2021 - Present",
+//   },
+//   {
+//     company: "Bauen Software Inc.",
+//     designation: "UX Designer",
+//     time: "2020 - 2021",
+//   },
+//   {
+//     company: "Bauen Software Inc.",
+//     designation: "UI Designer",
+//     time: "2018 - 2020",
+//   },
+//   {
+//     company: "Bauen Software Inc.",
+//     designation: "Web Designer",
+//     time: "2016 - 2018",
+//   },
+// ];
 
 const educations = [
   {
@@ -190,33 +199,54 @@ const ExpertAreas = () => {
                       </ul>
                     </div>
                   </div>
-                  <div id="tab_2" className={`wrapper ${activeContentTab(2)}`}>
-                    <div className="timelinebox">
+                  <div className="content">
+                  <div id="tab_1" className={`wrapper ${activeContentTab(2)}`}>
+                    <div className="youthexp">
                       <ul>
-                        {experiences.map((experience, i) => (
+                        {experiences.map((skill, i) => (
                           <li key={i}>
-                            <div className="list_inner">
-                              <div className="time">
-                                <span className="year">{experience.time}</span>
-                                <span className="company">
-                                  {experience.company}
+                            <div className="list_inner" onClick={(() => {
+                                skill.quantity === 0 ?
+                                location.href='https://buy.stripe.com/fZe5lT4P8dKGgYo6op' :
+                                checkout({
+                                  lineItems: [
+                                    {
+                                      price: String(process.env.NEXT_PUBLIC_YOUTH_SUPPORT_PRICE),
+                                      quantity: skill.quantity,
+                                    }
+                                  ]
+                                })
+                              })}>
+                              <span className="icon">
+                                <span className="in">
+                                  <img
+                                    className="svg"
+                                    src={skill.icon}
+                                    alt=""
+                                  />
                                 </span>
-                              </div>
-                              <div className="job">
-                                <h3>
-                                  <span>{experience.designation}</span>
-                                </h3>
-                              </div>
+                              </span>
+                              <p className="name">
+                                {skill.name} <span>({skill.value}$)</span>
+                              </p>
                             </div>
                           </li>
                         ))}
                       </ul>
                     </div>
                   </div>
+                  </div>
                   <div id="tab_3" className={`wrapper ${activeContentTab(3)}`}>
-                    <div className="timelinebox">
-                      <ul>
-                        {educations.map((education, i) => (
+                      
+                        <div className="scholaButton">
+                            <div className="orido_tm_boxed_buttonschol">
+                              <a className="anchor" href="#contact">
+                                Give to Scholarship FUND{" "}
+                                <img className="svg" src="img/svg/donate.svg" alt="" />
+                              </a>
+                          </div>
+                        </div>
+                        {/* {educations.map((education, i) => (
                           <li key={i}>
                             <div className="list_inner">
                               <div className="time">
@@ -232,9 +262,9 @@ const ExpertAreas = () => {
                               </div>
                             </div>
                           </li>
-                        ))}
-                      </ul>
-                    </div>
+                        ))} */}
+                      
+                    
                   </div>
                 </div>
               </div>

@@ -46,7 +46,7 @@ const Projects = () => {
                     </div>
                     <a
                       className="orido_tm_full_link popup-youtube"
-                      href="https://www.youtube.com/watch?v=7e90gBu4pas"
+                      href="https://www.youtube.com/watch?v=YD-q5dcGCSg"
                     />
                   </div>
                 </SwiperSlide>
