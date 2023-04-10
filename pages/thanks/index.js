@@ -1,7 +1,14 @@
-import React from 'react'
-import Thanks from './thanks'
-export default function index() {
+import { useRouter } from 'next/router';
+import Thanks from './thanks';
+
+function Index({ id }) {
   return (
-    <Thanks id={2}/>
-  )
+      <Thanks id = {id}/>
+  );
 }
+
+Index.getInitialProps = async ({ query }) => {
+  return { id: Number(query.id) };
+};
+
+export default Index;
