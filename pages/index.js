@@ -12,7 +12,7 @@ import Layout from "../src/layouts/Layout";
 import MobileMenu from "../src/layouts/MobileMenu";
 import Mouse from "../src/layouts/Mouse";
 import ProgressBar from "../src/layouts/ProgressBar";
-import Thanks from "./thanks/brainThanks";
+import Thanks from "../src/components/brainThanks";
 const Projects = dynamic(() => import("../src/components/Projects"), {
   ssr: false,
 });

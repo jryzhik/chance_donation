@@ -1,4 +1,4 @@
-import Layout from "../../src/layouts/Layout";
+import Layout from "../layouts/Layout";
 import Image from 'next/image'
 import { Card, Grid, Text, Link } from "@nextui-org/react";
 
@@ -65,8 +65,4 @@ const BrainThanks = (props) => {
     </Layout>
   );
 };
-
-BrainThanks.defaultProps = {
-    id: 0
-  };
 export default BrainThanks;

@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import BrainThanks from './brainThanks';
+import BrainThanks from '../../src/components/brainThanks';
 
 function Thanks({ id }) {
   return (
