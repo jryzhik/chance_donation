@@ -11,11 +11,11 @@ const counts = [
 ];
 
 const skills = [
-  { name: "Support 1 Orphan", value: "120", icon: "img/svg/1.svg", quantity:1},
-  { name: "Support 2 Orphans", value: "240", icon: "img/svg/2.svg", quantity:2},
-  { name: "Support 3 Orphans", value: "360", icon: "img/svg/3.svg", quantity:3},
-  { name: "Support 4 Orphans", value: "480", icon: "img/svg/4.svg", quantity:4},
-  { name: "Support 5 Orphans", value: "600", icon: "img/svg/5.svg", quantity:5},
+  { name: "Support 1 Orphan", value: "160", icon: "img/svg/1.svg", quantity:1},
+  { name: "Support 2 Orphans", value: "320", icon: "img/svg/2.svg", quantity:2},
+  { name: "Support 3 Orphans", value: "480", icon: "img/svg/3.svg", quantity:3},
+  { name: "Support 4 Orphans", value: "640", icon: "img/svg/4.svg", quantity:4},
+  { name: "Support 5 Orphans", value: "800", icon: "img/svg/5.svg", quantity:5},
   { name: "Donate Custom", value: "", icon: "img/svg/enter.svg", quantity:0, override: 'https://donate.stripe.com/14kaGd0yS362aA0aEE'},
 ];
 
