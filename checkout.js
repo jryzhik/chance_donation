@@ -17,7 +17,7 @@ export async function checkout({lineItems}, id) {
         lineItems,
         successUrl: `https://donate.chanceyouth.org/thanks?id=${id}`,
         cancelUrl: window.location.origin,
-        submit_type: 'Donate', // set submit type to donate
+        submit_type: 'donate', // set submit type to donate
         payment_intent_data: {
             description: 'Donation',
         }
