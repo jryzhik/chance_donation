@@ -7,6 +7,8 @@ module.exports = {
     experimental: {
         images: {
             unoptimized: true
-        }
-    }
+        },
+        runtime: 'edge',
+    },
+    reactStrictMode: true,
   }
