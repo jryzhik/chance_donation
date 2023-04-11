@@ -21,9 +21,9 @@ const BrainThanks = (props) => {
     <div className="cardthanks">
         <Card css={{ p: "$6", mw: "400px" }}>
         <Card.Header>
-            <img
+            <Image
             alt="nextui logo"
-            src="img/thanks/icon_chance.png"
+            src="/img/thanks/icon_chance.png"
             width="34px"
             height="34px"
             />
