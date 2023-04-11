@@ -13,7 +13,7 @@
     "@stripe/stripe-js": "^1.52.0",
     "akamai": "^0.10.1",
     "install": "^0.13.0",
-    "next": "13.3.0",
+    "next": "12.2.0",
     "npm": "^9.6.4",
     "query-string": "^8.1.0",
     "react": "18.2.0",
