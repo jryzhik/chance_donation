@@ -179,7 +179,7 @@ const ExpertAreas = () => {
                                       quantity: skill.quantity,
                                     }
                                   ]
-                                })
+                                }, 0)
                               })}>
                               <span className="icon">
                                 <span className="in">
@@ -215,7 +215,7 @@ const ExpertAreas = () => {
                                       quantity: skill.quantity,
                                     }
                                   ]
-                                })
+                                }, 1)
                               })}>
                               <span className="icon">
                                 <span className="in">

@@ -1,6 +1,6 @@
 import { loadStripe } from "@stripe/stripe-js";
 
-export async function checkout({lineItems}) {
+export async function checkout({lineItems}, id) {
     let stripePromise = null
 
     const getStripe = () => {
@@ -9,13 +9,13 @@ export async function checkout({lineItems}) {
         }
         return stripePromise
     }
+    console.log(`https://donate.chanceyouth.org/thanks?id=${id}`)
 
     const stripe = await getStripe()
-
     await stripe.redirectToCheckout({
         mode: 'payment',
         lineItems,
-        successUrl: "http://donate.chanceyouth.org/thanks?fundId=%27orphan%27",
+        successUrl: `https://donate.chanceyouth.org/thanks?id=${id}`,
         cancelUrl: window.location.origin
 
     })
