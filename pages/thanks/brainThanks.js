@@ -7,7 +7,7 @@ import { Card, Grid, Text, Link } from "@nextui-org/react";
 //     {name: 'Youth Camp Fund', imgPath: "/img/thanks/youth.svg"},
 //     {name: 'Scholarship Fund', imgPath: "/img/thanks/scholarship.svg"}  
 // ])
-const Thanks = (props) => {
+const BrainThanks = (props) => {
     const tabs = [
         {name: 'Orphan Camp Fund', imgPath: "/img/thanks/orphan.svg"},
         {name: 'Youth Camp Fund', imgPath: "/img/thanks/youth.svg"},
@@ -65,4 +65,4 @@ const Thanks = (props) => {
     </Layout>
   );
 };
-export default Thanks;
+export default BrainThanks;

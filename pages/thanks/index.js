@@ -1,14 +1,14 @@
 import { useRouter } from 'next/router';
-import Thanks from './thanks';
+import BrainThanks from './brainThanks';
 
-function Index({ id }) {
+function Thanks({ id }) {
   return (
-      <Thanks id = {id}/>
+      <BrainThanks id = {id}/>
   );
 }
 
-Index.getInitialProps = async ({ query }) => {
+Thanks.getInitialProps = async ({ query }) => {
   return { id: Number(query.id) };
 };
 
-export default Index;
+export default Thanks;
