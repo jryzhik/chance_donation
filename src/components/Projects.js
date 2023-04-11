@@ -44,10 +44,10 @@ const Projects = () => {
                         <span>Orphan Fathership</span>
                       </h3>
                     </div>
-                    <a
+                    {/* <a
                       className="orido_tm_full_link popup-youtube"
                       href="https://www.youtube.com/watch?v=YD-q5dcGCSg"
-                    />
+                    /> */}
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -65,10 +65,10 @@ const Projects = () => {
                         <span>Pre-Service</span>
                       </h3>
                     </div>
-                    <a
+                    {/* <a
                       className="orido_tm_full_link popup-vimeo"
                       href="https://vimeo.com/337293658"
-                    />
+                    /> */}
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -86,10 +86,10 @@ const Projects = () => {
                         <span>Sharing the Gospel</span>
                       </h3>
                     </div>
-                    <a
+                    {/* <a
                       className="orido_tm_full_link soundcloude_link mfp-iframe audio"
                       href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-                    />
+                    /> */}
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -109,7 +109,7 @@ const Projects = () => {
                     </div>
                     <a
                       className="orido_tm_full_link details_link c-pointer"
-                      onClick={() => setDetailsPopup(true)}
+                      onClick={() => setDetailsPopup(false)}
                     />
                   </div>
                 </SwiperSlide>
