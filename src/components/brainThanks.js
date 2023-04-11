@@ -45,7 +45,6 @@ const BrainThanks = (props) => {
         </Card.Body>
         <Card.Footer>
             <Link
-            icon
             color="primary"
             target="_blank"
             href="/"
