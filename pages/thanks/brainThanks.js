@@ -65,4 +65,8 @@ const BrainThanks = (props) => {
     </Layout>
   );
 };
+
+BrainThanks.defaultProps = {
+    id: 0
+  };
 export default BrainThanks;
