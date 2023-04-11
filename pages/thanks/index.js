@@ -1,4 +1,5 @@
-import BrainThanks from "./brainThanks";
+import { useRouter } from 'next/router';
+import BrainThanks from './brainThanks';
 
 function Thanks({ id }) {
   return (
@@ -7,7 +8,10 @@ function Thanks({ id }) {
 }
 
 Thanks.getInitialProps = async ({ query }) => {
-  return { id: Number(query.id) };
-};
+    const id = query.id ? Number(query.id) : 0;
+    return { 
+      id
+    };
+  };
 
 export default Thanks;
