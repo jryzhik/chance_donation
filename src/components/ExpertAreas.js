@@ -4,9 +4,9 @@ import ProgressBar from "./ProgressBar";
 import { checkout } from "../../checkout";
 
 const counts = [
-  { name: "Orphan Camp Left", value: 15300 },
-  { name: "Youth Camp Left", value: 11250 },
-  { name: "Raised", value: 5800 },
+  { name: "Orphan Camp Left", value: 11300 },
+  { name: "Youth Camp Left", value: 7359 },
+  { name: "Raised", value: 26341 },
   // { name: "Own Projects", value: 12 },
 ];
 

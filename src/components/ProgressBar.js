@@ -5,7 +5,7 @@ export default function ProgressBar() {
     <Grid.Container xs={12} sm={6} gap={2}>
       <Grid>
         <h6>Orphan Camp</h6>
-        <Progress value={42} shadow color="primary" status="primary" />
+        <Progress value={54} shadow color="primary" status="primary" />
       </Grid>
       <Grid>
         <h6>Youth Camp</h6>
