@@ -36,7 +36,7 @@ const serviceData = [
     name: "Mission Scholarship",
     img: "img/service/3.jpg",
     description: [
-      "Our team consists of 100% volunteers. Quite often, we have young people with a great zeal for ministry but the expenses of the trip can be too large to cary oneself. With the Mission Scholarship Fund, we are able to partially cover some mission expenses for volonteers from all across the globe!"
+      "Our team consists of 100% volunteers. Quite often, we have young people with a great zeal for ministry but the expenses of the trip can be too large to cary oneself. With the Mission Scholarship Fund, we are able to partially cover some mission expenses for volunteers from all across the globe!"
     ],
   },
 ];
