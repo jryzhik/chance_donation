@@ -3,12 +3,7 @@ import { filter_hashtag } from "../utilits";
 import ProgressBar from "./ProgressBar";
 import { checkout } from "../../checkout";
 
-const counts = [
-  { name: "Orphan Camp Left", value: 11300 },
-  { name: "Youth Camp Left", value: 7359 },
-  { name: "Raised", value: 26341 },
-  // { name: "Own Projects", value: 12 },
-];
+
 
 const skills = [
   { name: "Support 1 Orphan", value: "160", icon: "img/svg/1.svg", quantity:1},
