@@ -15,7 +15,7 @@ export default function DonationSelectionButtons({ callBack, recurringSelected }
         }
     },[recurringSelected])
     return (
-        <div className="orido_tm_section">
+        <div className="orido_tm_section" id="donate">
             <div style={{display: 'flex', flexDirection: "row", gap: "1em", justifyContent:"center"}}>
                 <ButtonSelect
                     callBack={() => callBack(true)}

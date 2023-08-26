@@ -34,13 +34,13 @@ const MobileMenu = () => {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#service">Service</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <a href="#donate">Donate</a>
             </li>
             <li>
-              <a href="#blog">Blog</a>
+              <a href="#gallery">Gallery</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
