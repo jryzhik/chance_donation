@@ -60,3 +60,53 @@ img.mfp-img {
 span.current {
   color: unset !important;
 }
+
+.buttonSelectSelected {
+  background-color: #ffc448;
+  padding: .5em;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 14px;
+  text-align: center;
+  transition: all .5s ease-out;
+
+}
+.buttonSelectSelected:hover {
+  cursor: pointer;
+  background-color: #fdf8ee;
+
+}
+
+.buttonSelect {
+  background-color: #ffffff;
+  padding: .5em;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 14px;
+  text-align: center;
+  transition: all .5s ease-out;
+
+}
+.buttonSelect:hover {
+  cursor: pointer;
+  background-color: #ffc448;
+
+}
+
+.donationselectionsection {
+  flex-direction: row;
+}
+.subscriptionItems {
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 950px) {
+  .subscriptionItems {
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+  }
+
+}

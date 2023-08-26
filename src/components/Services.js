@@ -4,9 +4,9 @@ import ServicePopup from "./popup/ServicePopup";
 import Counter from "./Counter";
 
 const counts = [
-  { name: "Orphan Camp Left", value: 2080 },
-  { name: "Youth Camp Left", value: 3040 },
-  { name: "Raised", value: 44090 },
+  { name: "Orphan Camp Left", value: 25000 },
+  { name: "Youth Camp Left", value: 25000 },
+  { name: "Raised", value: 0 },
   // { name: "Own Projects", value: 12 },
 ];
 
@@ -116,7 +116,7 @@ const Services = () => {
       <div className="orido_tm_section">
         <div className="orido_tm_counter">
           <div className="container">
-            <div className="counter_list">
+            <div className="counter_list" id="donate"> 
               <ul>
               
                 {counts.map((count, i) => (

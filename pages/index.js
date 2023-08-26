@@ -13,6 +13,9 @@ import MobileMenu from "../src/layouts/MobileMenu";
 import Mouse from "../src/layouts/Mouse";
 import ProgressBar from "../src/layouts/ProgressBar";
 import Thanks from "../src/components/brainThanks";
+import { useState } from "react";
+import RecurringArea from "../src/components/RecurringArea";
+import DonationSelectionButtons from "../src/components/DonationSelectionButtons";
 const Projects = dynamic(() => import("../src/components/Projects"), {
   ssr: false,
 });
@@ -21,6 +24,7 @@ const Partners = dynamic(() => import("../src/components/Partners"), {
 });
 
 const Index = () => {
+  const [recurringSelected, setRecurringSelected] = useState(true)
   return (
     <Layout>
       <MobileMenu />
@@ -28,7 +32,12 @@ const Index = () => {
       <Home />
       <About />
       <Services />
-      <ExpertAreas />
+      <DonationSelectionButtons callBack={setRecurringSelected} recurringSelected={recurringSelected}/>
+      {recurringSelected ? (
+          <RecurringArea/>
+      ): (
+          <ExpertAreas />
+      )}
       <Projects />
       <Feedback />
       {/* <Partners /> */}
