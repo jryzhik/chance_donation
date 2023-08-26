@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import ButtonSelect from './buttonSelect'
-
+import ButtonSelect from './ButtonSelect'
 export default function DonationSelectionButtons({ callBack, recurringSelected }) {
     const [weeklyStyle, setWeeklyStyle] = useState("buttonSelectSelected")
     const [onetimeStyle, setOnetimeStyle] = useState("buttonSelect")

@@ -3,7 +3,6 @@ import { filter_hashtag } from "../utilits";
 import ProgressBar from "./ProgressBar";
 import { checkout } from "../../checkout";
 import Image from "next/image";
-import ButtonSelect from "./buttonSelect";
 
 
 
