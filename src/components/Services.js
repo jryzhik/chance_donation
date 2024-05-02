@@ -4,9 +4,9 @@ import ServicePopup from "./popup/ServicePopup";
 import Counter from "./Counter";
 
 const counts = [
-  { name: "Orphan Camp Left", value: 25000 },
-  { name: "Youth Camp Left", value: 25000 },
-  { name: "Raised", value: 0 },
+  { name: "Orphan Camp Left", value: 15780 },
+  { name: "Youth Camp Left", value: 13879 },
+  { name: "Raised", value: 20341},
   // { name: "Own Projects", value: 12 },
 ];
 
