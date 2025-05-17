@@ -100,7 +100,7 @@ const ExpertAreas = () => {
                     an enormous <b>leap of faith</b>.
                   </p>
                   <p>
-                    We are praying that God makes another miracle and through you, we will be able to serve in 2023.
+                    We are praying that God makes another miracle and through you, we will be able to serve in 2025.
                   </p>
                 </div>
                 <ProgressBar />
