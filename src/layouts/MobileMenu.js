@@ -40,6 +40,9 @@ const MobileMenu = () => {
               <a href="#donate">Donate</a>
             </li>
             <li>
+              <a href="https://billing.stripe.com/p/login/5kQcN59q8cVr6r7f8T7EQ00">Portal</a>
+            </li>
+            <li>
               <a href="#gallery">Gallery</a>
             </li>
             <li>
